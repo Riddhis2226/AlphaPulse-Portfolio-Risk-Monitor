@@ -44,7 +44,7 @@ An asset management firm requires:
 
 ## 🔄 System Pipeline
 
-System Pipeline.png
+[https://github.com/Riddhis2226/AlphaPulse-Portfolio-Risk-Monitor/System Pipeline.png]
 
 ---
 
