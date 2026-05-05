@@ -44,7 +44,7 @@ An asset management firm requires:
 
 ## 🔄 System Pipeline
 
-[https://github.com/Riddhis2226/AlphaPulse-Portfolio-Risk-Monitor/System Pipeline.png]
+[https://github.com/Riddhis2226/AlphaPulse-Portfolio-Risk-Monitor/blob/main/images/system_pipeline/system_pipeline.png]
 
 ---
 
@@ -85,8 +85,8 @@ An asset management firm requires:
 ## 📊 Dashboard Preview
 
 <p align="center">
-  <img src="dashboard/screenshots/page1_performance.png" width="45%" />
-  <img src="dashboard/screenshots/page2_risk.png" width="45%" />
+  <img src="images/dashboard/portfolio_performance_overview.png" width="45%" />
+  <img src="images/dashboard/risk_and_simulation_analysis.png" width="45%" />
 </p>
 
 ---
