@@ -10,10 +10,30 @@
 
 AlphaPulse is a **production-level financial analytics system** designed to:
 
-- Analyze portfolio performance 📈  
-- Measure risk using statistical models ⚡  
-- Simulate future outcomes using Monte Carlo 💣  
-- Visualize insights via Power BI 🎯  
+* Analyze portfolio performance 📈
+* Measure risk using statistical models ⚡
+* Simulate future outcomes using Monte Carlo 💣
+* Visualize insights via Power BI 🎯
+
+---
+
+## ✨ Highlights
+
+* 📊 10,000+ Monte Carlo simulations
+* ⚡ Real-time financial data pipeline
+* 📉 Advanced risk modeling (VaR 95%)
+* 🎯 Interactive Power BI dashboard
+
+---
+
+## 💡 Business Impact
+
+AlphaPulse enables:
+
+* 📊 Data-driven portfolio decision making
+* ⚡ Early detection of high-risk assets
+* 🔍 Improved diversification using correlation insights
+* 💣 Quantification of downside risk using VaR
 
 ---
 
@@ -21,10 +41,10 @@ AlphaPulse is a **production-level financial analytics system** designed to:
 
 An asset management firm requires:
 
-- Real-time risk monitoring  
-- Portfolio exposure analysis  
-- Value at Risk (VaR) computation  
-- Correlation-based diversification insights  
+* Real-time risk monitoring
+* Portfolio exposure analysis
+* Value at Risk (VaR) computation
+* Correlation-based diversification insights
 
 ---
 
@@ -32,13 +52,24 @@ An asset management firm requires:
 
 <p align="center">
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas)
-![SQL](https://img.shields.io/badge/SQL-CC2927?style=for-the-badge&logo=microsoftsqlserver)
-![Power BI](https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=powerbi)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge\&logo=numpy)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge\&logo=pandas)
+![SQL](https://img.shields.io/badge/SQL-CC2927?style=for-the-badge\&logo=microsoftsqlserver)
+![Power BI](https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge\&logo=powerbi)
 
 </p>
+
+---
+
+## 🌐 Data Source
+
+* Data fetched using **Yahoo Finance API (yfinance)**
+* Historical time-series stock data
+* Stocks used:
+
+  * AAPL, MSFT, GOOG, TSLA, AMZN
+* Ensures real-world, dynamic data pipeline
 
 ---
 
@@ -46,7 +77,16 @@ An asset management firm requires:
 
 <p align="center">
   <img src="images/system_pipeline/system_pipeline.png" width="75%" />
-</p> 
+</p>
+
+### 🔍 Pipeline Explanation
+
+1. Data fetched from Yahoo Finance API
+2. Cleaned and preprocessed
+3. Feature engineering (returns, volatility, correlation)
+4. Monte Carlo simulation for future scenarios
+5. Value at Risk (VaR) calculation
+6. Insights visualized in Power BI
 
 ---
 
@@ -122,12 +162,33 @@ An asset management firm requires:
 
 ---
 
-## ▶️ Run the Project
+## 🚀 Why This Project Stands Out
+
+* End-to-end pipeline (Data → Analysis → Simulation → BI)
+* Combines Finance + Data Science + Visualization
+* Implements advanced concepts like Monte Carlo & VaR
+* Based on real-world production use case
+
+---
+
+## ▶️ How to Run
+
+### 1. Install dependencies
 
 ```bash
 pip install -r requirements.txt
+```
+
+### 2. Run pipeline
+
+```bash
 python main.py
 ```
+
+### 3. Open Power BI dashboard
+
+* Load generated CSV files
+* Explore insights interactively
 
 ---
 
