@@ -1,4 +1,3 @@
-````markdown
 # 🚀 AlphaPulse – Portfolio Risk & Volatility Monitor
 
 <p align="center">
