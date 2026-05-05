@@ -44,15 +44,13 @@ An asset management firm requires:
 
 ## 🔄 System Pipeline
 
-```mermaid
 graph LR
-A[Yahoo Finance API] --> B[Data Cleaning]
-B --> C[Feature Engineering]
-C --> D[Statistical Analysis]
-D --> E[Monte Carlo Simulation]
-E --> F[Risk Metrics (VaR)]
-F --> G[Power BI Dashboard]
-````
+    A[Yahoo Finance API] --> B[Data Cleaning]
+    B --> C[Feature Engineering]
+    C --> D[Statistical Analysis]
+    D --> E[Monte Carlo Simulation]
+    E --> F[Risk Metrics VaR]
+    F --> G[Power BI Dashboard]
 
 ---
 
